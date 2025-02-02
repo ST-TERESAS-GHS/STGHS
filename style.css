@@ -469,3 +469,28 @@ padding:0;
             border:1px solid #ccc;
             box-sizing:border-box;
 }
+.gallery h1{
+    text-align:center;
+    margin:1vw
+}
+.gallery img{
+    width:360px;
+    height:360px;
+    object-fit:cover;
+    border:solid ;
+    border-color:#001362;
+    border-radius:9px;
+    margin:10px;
+}
+.gallery img:hover{
+    box-shadow:0vw .3vw .5vw 0vw black;
+    transition:.2s;
+}
+
+@media(max-width:700px){
+    
+    .gallery img{display:block;
+                  margin:auto;
+                  margin-top:5px;
+    }
+}
