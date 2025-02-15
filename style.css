@@ -494,3 +494,28 @@ padding:0;
                   margin-top:5px;
     }
 }
+.school-day h1{
+    text-align:center;
+    margin:1vw
+}
+.school-day img{
+    width:360px;
+    height:360px;
+    object-fit:cover;
+    border:solid ;
+    border-color:#001362;
+    border-radius:9px;
+    margin:10px;
+}
+.school-day img:hover{
+    box-shadow:0vw .3vw .5vw 0vw black;
+    transition:.2s;
+}
+
+@media(max-width:700px){
+    
+    .school-day img{display:block;
+                  margin:auto;
+                  margin-top:5px;
+    }
+}
