@@ -538,8 +538,8 @@ padding:0;
     .school-day img{display:inline-block;
                   margin:5px;
                   margin-left:10px;
-                  width:315px;
-                  height:315px;
+                  width:305px;
+                  height:305px;
     }
 }
 @media(max-width:700px){
@@ -555,8 +555,8 @@ padding:0;
     .school-day img{display:inline-block;
                   margin:5px;
                   margin-left:5px;
-                  width:310px;
-                  height:310px;
+                  width:305px;
+                  height:305px;
                  
     }
 }
