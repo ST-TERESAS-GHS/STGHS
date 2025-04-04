@@ -507,11 +507,9 @@ padding:0;
 }
 @media(max-width:1024px){
     
-    .gallery img{display:inline-block;
-                  margin:5px;
-                  margin-left:5px;
-                  width:310px;
-                  height:310px;
+    .gallery img{width: 95%;
+                height: auto;
+                border-radius: 10px; 
                  
     }
 }
